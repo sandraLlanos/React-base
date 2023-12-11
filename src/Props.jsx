@@ -17,8 +17,8 @@ export const Props = ({title}) => {
     console.log(title);
     return ( 
         <>
-        <div>hola</div>
-        <h1> mi nombre es:{ title } </h1>
+        <div>Hello</div>
+        <h1> My name is:{ title } </h1>
         </>
      )
 }
