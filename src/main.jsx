@@ -4,7 +4,8 @@ import ReactDOM from 'react-dom/client'
 // import FirstApp from './FistApp';
 // import { Props } from './Props';
 // import { DefaultProps } from './DefaultProps';
-import { CounterApp } from './CounterApp'
+// import { CounterApp } from './CounterApp'
+import { CounterUseSate } from './CounterUseSate'
 import './styles.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* pass props, when I need to pass a number I can use {} expression */}
     {/* <Props title={123}  subtitle={ 123 }/> */}
     {/* <DefaultProps/> */}
-    <CounterApp value={123} />
+    {/* <CounterApp value={123} /> */}
+    <CounterUseSate value={123} />
   </React.StrictMode>
 )
